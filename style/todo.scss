@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgba(247, 247, 247, 0.877);
+    font-family: Arial, Helvetica, sans-serif;
+}
+._H1{
+    display: flex;
+    // background-color: aquamarine;
+    color: rgb(51, 18, 82);
+    padding-left:  390px ;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li {
+    margin-top: 14px;
+    height: 50px;
+    // transition: 1s;
+    overflow: hidden;
+    // border-bottom: 1px solid #6b6b6b;
+    // box-shadow: rgba(43, 85, 128, 0.2) 0px 8px 24px; 
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    >h2{
+        color:black;
+    }
+    >span{
+        // background-color: aquamarine;
+        width: 20px;
+        // border: 2px solid red ;
+        cursor: pointer;
+        >i{
+           color :rgb(51, 18, 82) ;
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 38px;
+            margin-top: 3px ;
+        }
+    }
+}
+._OO{
+           color :rgb(51, 18, 82) ;
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 38px;
+}
+._PP{
+    padding-left: 83px !important;
+}
+#val{
+    height: 50px ;
+    border: none;
+    &::placeholder{
+        font-size: 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    }
+}
+
+._box1{
+    background-color: white;
+    box-shadow: rgba(24, 24, 24, 0.2) 13px 18px 19px 12px ; 
+    border-radius: 10px;
+}
+._bbt{
+    color: white;
+    background-color:rgb(51, 18, 82) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important ;
+
+}
+._imp{
+    height: 50px;
+   
+    
+}
+._KK{
+    color :rgb(51, 18, 82) ;
+    font-size: 34px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 38px;
+}
+._HH{
+        font-size: 30px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    
+}

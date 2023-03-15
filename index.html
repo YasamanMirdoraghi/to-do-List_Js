@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style/todo.css">
+</head>
+
+    <body onkeyup="_keyCode(event)">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 class="_H1">Todo List using JavaScript</h1>
+                <div class="col-7  mt-5 _box1">
+                    <div class=" row">
+                        <input type="text" id="val" placeholder="Task to be done.." class="col-10 mt-1" autofocus>
+                        <button onclick="_add()" class="col-2 mt-1 _bbt">Add</button>
+                    </div>
+                    <div class="row">
+                        <ul class="col-12" id="list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="js/to do.js"></script>
+</html>
